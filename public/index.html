@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>nutriKNOW</title>
+        <meta name="description" content="nutriknow,a food comparison engine">
+        <link rel="icon" type="image/png" href="img/nutrient_favicon.png" sizes="16x16">
+        <link rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    </head>
+    <body>
+
+
+      <div class="parallax-container xsmall">
+            <div class="parallax"><img src="img/nutrient_background_pattern_blue.png"></div>
+      </div>
+      <div class="section a">
+            <div class="row">
+              <div id="main_heading">
+                  <h1 id="nutriknow_main_heading">nutriKNOW</h1>
+                  <p>how does your food measure up?</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s2">
+                  <img class="cute_food" id="apple" src="img/apple.png">
+              </div>
+              <div class="col s2">
+                  <img class="cute_food"  id="turkey_leg" src="img/turkey_leg.png">
+              </div>
+              <div class="col s2">
+                  <img class="cute_food" id="egg" src="img/egg.png">
+              </div>
+              <div class="col s2">
+                  <img class="cute_food" id="pear" src="img/pear.png">
+              </div>
+               <div class="col s2">
+                  <img class="cute_food"  id="eggplant" src="img/eggplant.png">
+              </div>
+               <div class="col s2">
+                  <img class="cute_food" id="mushroom" src="img/mushroom.png">
+              </div>
+          </div>
+      </div>
+      <div class="parallax-container small">
+          <div class="parallax first_box col s12">
+              <img id="background_pattern" src="img/nutrient_background_pattern_blue.png">
+          </div>
+      </div>
+      <div class="section b">
+          <div class="row container">
+              <h2 class="landing_page_section_header">what it is</h2>
+              <hr class="landing_page_underline" />
+              <p class="grey-text text-darken-3 lighten-3 landing_page_section_body">did you know that raw kale has more calcium than milk ? and chocolate has more potassium than bananas ? surprising huh ? find out how your food measures up with this online tool. we hope to inspire you to eat a more balanced and nutritious diet.</p>
+          </div>
+      </div>
+      <div class="parallax-container small">
+            <div class="parallax"><img src="img/nutrient_background_pattern_blue.png"></div>
+      </div>
+      <div class="section c">
+            <div class="row container">
+              <h2 class="landing_page_section_header">let's compare</h2>
+              <hr class="landing_page_underline" />
+              <p class="grey-text text-darken-3 lighten-3 landing_page_section_body">ready ? click the button below to get started. the nutrients database is provided the <a href="https://ndb.nal.usda.gov/ndb/api/doc" target="_blank" id="USDA_link">USDA.</a></p>
+              <!-- new button -->
+              <button class="waves-effect waves-light btn" id="js_compare_button">start</button>
+              <!-- old button -->
+              <!-- <a href="#modal1" class="waves-effect waves-light btn modal-trigger" id="js_compare_button">start</a> -->
+            <div class="container" id="js_compare">
+                  <div id="main" class="row"></div>
+            </div>
+            </div>
+<!-- GAME MODAL ____________________________________________________________________________-->
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <div class="container">
+                  <div id="main" class="row"></div>
+                </div>
+              </div> <!-- modal-content -->
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-light btn">close
+                </a>
+              </div>
+            </div>
+      </div>
+      <div class="parallax-container medium">
+            <div class="parallax"><img src="img/nutrient_background_pattern_blue.png"></div>
+      </div>
+      <footer class="page-footer">
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 designed and built by MIA Collective
+            <a class="grey-text text-lighten-4 right" href="https://github.com/maha2490/nutrient_project">
+              <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+            </a>
+
+            </div>
+          </div>
+      </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://use.fontawesome.com/d8145956ef.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script>-->
+    <script src="js/main.js"></script>
+    </body>
+</html>

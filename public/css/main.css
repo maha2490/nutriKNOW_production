@@ -1,0 +1,457 @@
+/*main.css*/
+
+@import 'https://fonts.googleapis.com/css?family=Maitree|Quicksand';
+
+/*_PRESETS________________________________________________________________*/
+* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: lowercase;
+	color: #616163;
+}
+* p {
+	font-family: 'Maitree', serif;
+	font-weight: 200;
+	color: #616163;
+}
+
+
+/*_LANDING PAGE_____________________________________________________________*/
+.section.a,
+.section.b,
+.section.c {
+	background-color: #E0FFFF;
+}
+.parallax img {
+	display: block;
+}
+#main_heading{
+	text-align: center;
+	margin-top: 6%;
+}
+#nutriknow_main_heading {
+	font-size: 6em;
+	letter-spacing: 5px;
+	text-transform: none;
+	margin-top: 10%;
+}
+#main_heading p {
+	font-size: 173%;
+    font-family: "quicksand", sans-serif;
+}
+hr.landing_page_underline {
+	border-color: white;
+    border-width: 1px;
+    width: 43%;
+    margin-bottom: 4%;
+}
+.cute_food {
+ 	width: 175%;
+}
+#apple {
+	margin-left: -4%;
+}
+#turkey_leg {
+	margin-left: -28%;
+    margin-top: -3%;
+    width: 196%;
+}
+#egg {
+    margin-left: -17%;
+    margin-top: 23%;
+    width: 146%;
+}
+#pear {
+	margin-left: -44%;
+    margin-top: 6%;
+}
+#eggplant {
+	margin-left: -79%;
+    margin-top: -25%;
+    width: 219%;
+}
+#mushroom {
+    margin-left: -72%;
+    margin-top: 1%;
+}
+#USDA_link {
+	color: #616163;
+	text-shadow: 2px 1px 0px #84f6ff;
+}
+#USDA_link:hover {
+	font-size: 1.2em;
+}
+
+/*_______________________________________________________________________*/
+.parallax-container.xsmall {
+	height: 15px;
+}
+.parallax-container.small {
+	height: 75px;
+}
+.parallax-container.medium {
+	height: 100px;
+}
+.section.b {
+	height: 350px;
+}
+.section.c {
+	height: 100%;
+}
+.landing_page_section_header {
+	text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.landing_page_section_body {
+	text-align: center;
+    font-size: 1.1em;
+    line-height: 150%;
+    padding-left: 11%;
+    padding-right: 15%;
+}
+button.btn {
+	background-color: #ffbfa0;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: lowercase;
+    font-size: 1.5em;
+    color: #E0FFFF;
+    width: 14%;
+    margin-top: 3%;
+    margin-left: 42%;
+}
+button.btn:hover {
+	background-color: #ff9765;
+}
+button.btn:active {
+	background-color: #ff9765;
+}
+.modal{
+  width:95%;
+	max-height: 90%;
+	top: 4%;
+}
+footer.page-footer {
+	margin-top: 0;
+	background-color: #ffbfa0;
+	font-family: 'Quicksand', sans-serif;
+ }
+
+ /*_JS COMPARE ____________________________________________________________*/
+
+#js_compare {
+	display: none;
+	margin-top: 5%;
+	border: 10px solid black;
+	padding: 5%;
+	width: 100%;
+}
+.bordered {		
+	width: 100%;
+}
+.nutrient_category {
+	font-family:'Quicksand', sans-serif;
+}
+.item1_heading {
+	
+}
+.collection .collection-item {
+	width: 94%;
+	font-family: 'Maitree', serif;
+    color: #616163;
+}
+input#input-primary {
+	font-family: 'Maitree', serif;
+}
+
+ /*_MODAL FORMATING________________________________________________________*/
+.modal-content {
+	background-color: #E0FFFF;
+	font-family: 'Maitree', serif;
+	font-weight: 200;
+	color: #616163;
+}
+.how_does {
+	background-color: rgba(135,246,255,0.8);
+	padding: 1%;
+	margin-top: 2%;
+	border-radius: 14px;
+	margin-bottom: 3%;
+}
+.modal-content h4 {
+	margin-left: 2%;
+	margin-top: 2%;
+	display: inline-block;
+}
+.modal-content p {
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: -11px;
+	margin-bottom: 1%;
+	font-size: 121%;
+	font-family: 'Quicksand', sans-serif;
+}
+.modal-content ol {
+	margin-left: 3%;
+	margin-top: 2%;
+  line-height: 176%;
+}
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: outset;
+	border-width: 4px;
+	border-color: #ffbfa0;
+}
+.numberItem{
+	font-weight: 900;
+	font-size: 120%;
+	color: #ffbfa0;
+	margin:1%;
+}
+.btn2 {
+	width: 100%;
+	background-color: #44FFD2;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 183%;
+	font-weight: bold;
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	letter-spacing: 1.5px;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	color: #616163;
+	border-radius: 4px;
+	border-width: 1px;
+}
+.fa fa-search {
+	display: inline-block;
+}
+#input-div {
+	display: inline-block;
+	font-family: 'Maitree', serif;
+	width: 89%;
+}
+.fa.fa-search.fa-2x {
+  font-size: 1.3em;
+}
+.search_button {
+	background: transparent;
+	border: none;
+	position: relative;
+  right:5%
+}
+.search_button:hover {
+	color: #616163;
+    text-shadow: 1px 1px #84f6ff;
+}
+.list-group-item{
+	background-color: white;
+	color: #616163;
+	font-family: 'Quicksand';
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.list-group-item:hover{
+	background-color: #87F6FF;
+	color: #616163;
+	font-family: 'Quicksand';
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.waves-light.btn3 {
+	font-size: 100%;
+}
+
+/*.list-group-item:nth-of-type(odd) {
+	background-color: #44FFD2;
+	color: #616163;
+	font-family: 'Quicksand';
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	overflow: hidden;
+	width: 100%;
+}
+.list-group-item:nth-of-type(odd):hover{
+	background-color: rgb(197, 153, 106);
+	color: #616163;
+	font-family: 'Quicksand';
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	overflow: hidden;
+	width: 100%;
+}
+.list-group-item:nth-of-type(even){
+	background-color: #87F6FF;
+	color: #616163;
+	font-family: 'Quicksand';
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	overflow: hidden;
+	width: 100%;
+}
+.list-group-item:nth-of-type(even):hover{
+	background-color: rgb(213, 210, 212);
+	color: #616163;
+	font-family: 'Quicksand';
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	overflow: hidden;
+	width: 100%;
+}*/
+#panel_heading{
+	background-color: #FFBFA0;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+	text-align: center;
+	padding-top: 1.25%;
+  padding-bottom: 1.25%;
+  font-size: 183%;
+  margin-bottom: 3%;
+}
+.panel-body{
+	background-color: #E0FFFF;
+}
+thead tr {
+	font-family: 'Quicksand', sans-serif;
+	text-transform: lowercase;
+	letter-spacing: 1.25px;
+  	font-size: 111%;
+}
+.modal .modal-footer {
+	background-color: #E0FFFF;
+}
+
+/*_LANDING PAGE MEDIA QUERIES________________________________________________________*/
+@media screen and (max-width:767px) {
+	/*.section.a {
+		width: 100%;
+		height: 270px;
+	}*/
+	.section.b {
+		height: 285px;
+	}
+	.section.c {
+    	width: 100%;
+    	height: 250px;
+	}
+	#nutriknow_main_heading {
+		font-size: 4em;
+	}
+	#main_heading p {
+		font-size: 140%;
+	}
+	.landing_page_section_body {
+		padding: 0;
+	}
+	.landing_page_section_header {
+		font-size: 2.5em;
+	}
+	.btn {
+    	width: 27%;
+    	margin-left: 37%;
+    	font-size: 1em;
+    }
+}
+
+@media screen and (max-width:400px) {
+	.parallax-container.xsmall {
+		height: 10px;
+	}
+	.section.a {
+		width: 100%;
+		height: 260px;
+	}
+	.section.c {
+    	width: 100%;
+    	height: 100%;
+	}
+	.section.b {
+		height: 240px;
+	}
+	#nutriknow_main_heading {
+		font-size: 2.7em;
+		margin-top: 12%;
+		margin-bottom: 1%;
+	}
+	#main_heading p {
+		font-size: 87%;
+    	margin-bottom: -2%;
+	}
+	.parallax-container.small {
+		height: 30px;
+	}
+	.landing_page_section_header {
+		font-size: 1.3em;
+		margin-top: 9%;
+    	margin-bottom: 4%;
+	}
+	.landing_page_section_body {
+		font-size: 83%;
+    	line-height: 175%;
+    	padding: 0;
+    	margin-top: 7%;
+    }
+	button.btn {
+    	width: 31%;
+    	height: 34px;
+    	margin-left: 34%;
+    	font-size: 1em;
+    }
+    #js_compare {
+    	margin-top: 11%;
+	    text-align: center;
+	    border: 5px solid black;
+	    padding: 4%;
+	    width: 104%;
+    }
+    tbody {
+    	font-size: 0.7em;
+    }
+    tr {
+    	font-size: 108%;
+    }
+    #input-div {
+    	width: 82%;
+    	margin-left: 6%;
+    }
+    thead tr {
+    	font-size: 97%;
+    }
+	.parallax-container.medium {
+		height: 40px;
+	}
+    footer.page-footer {
+		font-size: 0.7em;
+		padding-top: 10px;
+ 	}
+ 	#panel_heading {
+ 		font-size: 148%;
+ 		padding-top: 4.25%;
+ 		height: 55px;
+ 		width: 90vw;
+ 	}
+ 	.grey-text.text-lighten-4 {
+    	margin-top: 1%;
+    	font-size: 0.9em;
+    }
+}
+
+
