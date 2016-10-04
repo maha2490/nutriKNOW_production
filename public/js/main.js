@@ -21219,7 +21219,7 @@ var App = React.createClass({
     if (this.state.searchResults1.list) {
       var listItems1 = this.state.searchResults1.list.item.map(function (item) {
         // check if at least one of the search terms is the first or second word of the result
-        var searchTerm = this.refs.searchTerm1.state.value;
+        var searchTerm = this.refs.searchTerm1.state.value.toLowerCase();
         var searchTermWords = searchTerm.split(/\s|,\s|,/);
         var result = item.name.toLowerCase();
         var first2WordsOfResult = [];
@@ -21251,7 +21251,7 @@ var App = React.createClass({
     if (this.state.searchResults2.list) {
       var listItems2 = this.state.searchResults2.list.item.map(function (item) {
         // check if at least one of the search terms is the first word of the result
-        var searchTerm = this.refs.searchTerm2.state.value;
+        var searchTerm = this.refs.searchTerm2.state.value.toLowerCase();
         var searchTermWords = searchTerm.split(/\s|,\s|,/);
         var result = item.name.toLowerCase();
         var first2WordsOfResult = [];
